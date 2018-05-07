@@ -2,7 +2,7 @@
 #include <SoftwareSerial.h>// import the serial library
 #include <Servo.h>
 Servo myservo;// values 0-180
-SoftwareSerial Genotronex(10, 11); // RX, TX
+SoftwareSerial Genotronex(11, 10); // RX, TX
 int redledpin=13;
 int greenledpin = 12;
 int BluetoothData; // the data given from Computer
